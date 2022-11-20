@@ -54,6 +54,3 @@ def PredictedView():
 		y_predict = digit(y_list)
 
 	return render_template('predictedview.html', predicted_value = y_predict)
-
-if __name__=='__main__':
-	app.run()
