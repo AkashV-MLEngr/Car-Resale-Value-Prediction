@@ -2,6 +2,7 @@ import random
 from flask import Flask, render_template, Response, request
 
 app = Flask(__name__)
+app.secret_key = "manbearpig_MUDMAN888"
 
 @app.route('/')
 def HomeView():
